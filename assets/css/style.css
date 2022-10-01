@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+.nav-c{
+    position: relative;
+    top: 1.1px;
+    left: 400px;
+  }
+  .navbar-brand{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+  }
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-weight: 400;
+    word-wrap: break-word;
+    overflow-x: hidden;
+    background-color: rgb(36, 36, 36);
+}
+h1 {
+    font-family: Poppins;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #8606a5;
+    border-color: #8606a5;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #0a007b;
+    border-color: #0a007b;
+}
